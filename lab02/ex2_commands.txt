@@ -3,3 +3,30 @@
 # Lines starting with # are comments, feel free to add any to document your commands
 
 # Please add your commands below this line
+b main
+r
+
+n
+
+n 3
+
+step
+
+fin
+b check_lower
+c
+
+p password
+
+n 2
+
+fin
+b check_length
+c
+fin
+
+p $eax
+
+p length
+
+quit
