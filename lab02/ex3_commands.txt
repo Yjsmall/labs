@@ -3,3 +3,13 @@
 # Lines starting with # are comments, feel free to add any to document your commands
 
 # Please add your commands below this line
+b check_number
+r
+n
+step
+b 31 if letter == '0'
+c
+p is_in_range
+p lower
+p uppper
+quit
