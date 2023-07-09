@@ -7,9 +7,9 @@ This is free software; you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.'
 SH_VERSION='sh: 0: Illegal option --'
 GIT_VERSION='git version 2.34.1'
-PYTHON3_VERSION='Python 3.11.2'
-PYTHON_VERSION='gen-debug.sh: line 12: python: command not found'
+PYTHON3_VERSION='Python 3.10.10'
+PYTHON_VERSION='Python 3.10.10'
 PY_VERSION='gen-debug.sh: line 13: py: command not found'
-JAVA_VERSION='openjdk version "17.0.6" 2023-01-17
-OpenJDK Runtime Environment (build 17.0.6+10-Ubuntu-0ubuntu122.04)
-OpenJDK 64-Bit Server VM (build 17.0.6+10-Ubuntu-0ubuntu122.04, mixed mode, sharing)'
+JAVA_VERSION='openjdk version "17.0.7" 2023-04-18
+OpenJDK Runtime Environment Homebrew (build 17.0.7+0)
+OpenJDK 64-Bit Server VM Homebrew (build 17.0.7+0, mixed mode, sharing)'
