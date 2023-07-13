@@ -1,7 +1,7 @@
 .globl factorial
 
 .data
-n: .word 8
+n: .word 2
 
 .text
 # Don't worry about understanding the code in main
@@ -27,7 +27,18 @@ main:
 # The return value should be stored in a0
 factorial:
     # YOUR CODE HERE
+    addi t0, x0, 1 # i = 1
+    add t1, x0, a0 # idx = n
+    addi a0, x0, 1 # sum = 1
+    
+iter:
+    blt t1, x0, unit_case
+    mul a0, t0, a0 # sum *= i
+    addi t0, t0, 1 # i++
+    addi t1, t1, -1 # idx--
 
+    bne t1, x0, iter
+unit_case:
     # This is how you return from a function. You'll learn more about this later.
     # This should be the last line in your program.
     jr ra
